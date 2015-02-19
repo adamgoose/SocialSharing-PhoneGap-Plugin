@@ -46,6 +46,7 @@
             <string>com.apple.UIKit.activity.SaveToCameraRoll</string>
             <string>com.apple.UIKit.activity.AirDrop</string>
             <string>com.apple.UIKit.activity.Print</string>
+            <string>com.apple.UIKit.activity.AddToReadingList</string>
         </array>
     </config-file>
 
