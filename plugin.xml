@@ -39,7 +39,7 @@
       </feature>
     </config-file>
     
-    <config-file target="Info.plist" parent="SocialSharingExcludeActivities">
+    <config-file target="*-Info.plist" parent="SocialSharingExcludeActivities">
         <array>
             <string>com.apple.UIKit.activity.AssignToContact</string>
             <string>com.apple.UIKit.activity.CopyToPasteboard</string>
