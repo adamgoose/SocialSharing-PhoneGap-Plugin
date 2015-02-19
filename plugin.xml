@@ -38,6 +38,16 @@
         <param name="onload" value="true" />
       </feature>
     </config-file>
+    
+    <config-file target="Info.plist" parent="SocialSharingExcludeActivities">
+        <array>
+            <string>com.apple.UIKit.activity.AssignToContact</string>
+            <string>com.apple.UIKit.activity.CopyToPasteboard</string>
+            <string>com.apple.UIKit.activity.SaveToCameraRoll</string>
+            <string>com.apple.UIKit.activity.AirDrop</string>
+            <string>com.apple.UIKit.activity.Print</string>
+        </array>
+    </config-file>
 
     <header-file src="src/ios/SocialSharing.h"/>
     <source-file src="src/ios/SocialSharing.m"/>
